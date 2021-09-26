@@ -1,0 +1,407 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Sep 23, 2021, 7:06:01 PM
+    Author     : GRC
+*/
+body{
+    
+  /*  font-size: 20px;*/
+  
+  font-family: arial;
+  
+  color: #111111;
+    
+}
+
+
+#h11{
+    color: rgb(0,100,0);
+   /* opacity: 0.5;*/
+    
+background-color: #ff0033;
+
+/*font-family: tahoma; 
+width:  100%;   
+height: 80px ;*/
+}
+
+
+
+            
+#p1{
+    
+    color: #5400ff;
+    background-color: #ffff00 ;
+    
+/*font-family: arial ;
+width:  100%;   
+height: 80px ;*/
+  }
+  
+  
+  
+#h21{
+    color: #00ffff;
+   
+   background-color: #ff0033;
+    /*font-family: tahoma;
+   
+width:  100%;   
+height: 80px ;*/
+}
+
+
+
+  #p2{
+      color: #ff66ff;
+      background-color: #ffff00 ;
+      
+      /*font-family: arial ;
+      
+width:  100%;   
+height: 80px ;*/
+      
+  }
+  
+  .h31{
+       
+     font-family: tahoma,arial; 
+      
+      font-weight: normal;
+      
+      font-size: 100%;
+      
+      text-align: center;
+  }
+  
+  .p3{
+      
+      font-family: tahoma,arial;
+      
+      font-weight: normal;
+      
+      font-size: 1em;
+      
+     text-align: center; 
+  }
+
+  .h12{
+      
+     font-style: italic; 
+     
+     text-transform: capitalize;
+     
+     text-align: center;
+     
+    
+    text-decoration:  overline underline;
+    
+    text-shadow: 15px 10px 30px #000;
+    
+    background-color: #ff0033;
+    color: #fff;
+    
+    width: 50%;
+    
+    margin-left: 200px;
+  }
+  
+
+  
+  .p4{
+      
+      line-height: 1.5em;
+      
+      letter-spacing: 0.01em;
+      
+      word-spacing: 0.5em;
+      
+      text-align: justify;
+      
+      text-indent: 2em;
+      
+      background-color: #ffff00;
+      
+      width: 50%;
+      
+      
+       min-height: 50px;
+         
+       max-height: 1000px ;
+       
+      /* overflow: scroll;
+       
+      border: 5px solid #cc0000;
+      
+      border-width: 5px;
+      
+      border-top-width: 10px;
+      
+      border-left-width: 5px;
+      
+      border-width: 10px 6px 15px 2px;
+      
+      border-width: 10px 20px;*/
+      
+      border-width: 10px;
+      
+      /* border-color: #ff0000 appworkspace #000 #ffff00;
+       
+       border-color: #ff66ff aqua;*/
+      
+      border-color: #ff0033;
+      
+      
+      border-style: solid;
+      
+      border-radius: 10px 100px 15px 100px;
+      
+      padding: 30px;
+      
+      margin-left: 200px;
+     
+      
+       
+     }
+     
+     .dive1{
+         
+         width: 1000px;
+         
+         background-color: #33cc00;
+         
+         height: 500px;
+         
+         min-width: 100px;
+         
+         max-width: 2000px;
+         
+         min-height: 600px;
+         
+         /*border: 5px solid #ff0000;*/
+         
+         
+         
+        
+     }
+     
+        p:first-letter{
+            
+       color: red;
+      
+      font-weight: 700;
+      
+      font-size: 2em;
+      
+      
+  }
+            
+  p:first-line{
+      
+      color: red;
+  }     
+            
+  .p5{
+      width: 700px;
+      
+      background-color: #ff00cc;
+      
+      border: 5px solid #000;
+      
+      padding: 10px 20px 30px 40px;
+      
+      margin:10px 20px 30px 40px;
+      
+  }
+  
+  .p6{
+        width: 700px;
+      
+      background-color: #ff00cc;
+      
+      border: 5px solid #000;
+      
+      margin: 50px 20px 20px 20px;
+      
+  }
+  
+  a{
+      
+      display: inline-block;
+      
+      background-color: #999999;
+      
+      width: 50PX;
+      
+      margin: 10px;
+      
+      text-align: center;
+  
+      box-shadow: -10px -10px 10px #ff0000;
+  }
+  
+  a:hover{
+      color: #ff0000;
+      
+      background-color: #0000ff;
+      
+      border-radius: 5px;
+      
+      box-shadow: 10px 10px 10px #999999;
+  }
+  
+  .p7{
+      
+      width: 450px;
+      
+      background-color: #999999;
+      
+      text-align: center;
+      
+      padding: 20px;
+      
+      box-shadow: 10px 10px 10px #999999;
+      
+  }
+  .dive2{
+       width: 450px;
+      
+      background-color: #999999;
+      
+      text-align: center;
+      
+      padding: 20px;
+      
+      box-shadow: -10px -10px 10px #ff0000;
+  }
+  
+  .p8{
+      
+  }
+  li{
+    list-style-position: inside;
+    
+    margin-bottom: 15px;
+     
+     
+      
+      
+  }
+  
+  table{
+      
+     width: 600px
+     
+  }
+  th,td{
+      
+      padding: 7px 10px 10px 10px
+  }
+  
+  th{
+      
+      text-transform: uppercase;
+      
+      letter-spacing: 0.1em;
+      
+      font-size: 90%;
+      
+      border-bottom: 2px solid #111111;
+      
+      border-top: 1px solid #999999;
+      
+      text-align: left;
+  }
+  
+  #even{
+      
+      background-color: #efefef;
+  }
+  
+  tr:hover{
+      
+      background-color: #c3e6e5;
+  }
+  
+  
+  
+  input{
+      
+      font-size: 130%;
+      
+      color: #5a5854;
+      
+      background-color: #f2f2d2;
+      
+      border: 2px solid #bdbdbd;
+      
+      border-radius: 5px;
+      
+      padding: 8px 8px 8px 35px;
+      
+      background-repeat: no-repeat;
+      
+      background-position: 8px 9px;
+      
+      display: block;
+      
+      margin-bottom: 10px;
+          
+          
+      
+      
+  }
+  
+  input:focus{
+      
+      background-color: #fff;
+      
+      border: 1px solid #b1e1e4;
+      
+  }
+  
+  #email{
+      
+     background-image: url("Apple multicolore.png");
+     
+     padding-bottom: 15px; 
+  }
+  
+  #instagram{
+      
+      background-image: url("Carreau.png");
+     
+     padding-bottom: 15px;
+     
+     
+  }
+  
+  #tel{
+      
+       background-image: url("Coeur.png");
+     
+     padding-bottom: 15px;
+  }
+  
+  #s1{
+      
+      width: 200px;
+      
+      background-color: #009933;
+      
+      color: #fff;
+      
+      padding: 10px 10px 10px 10px;
+      
+      border-radius: 30px;
+  }
+  #s1:hover{
+      
+      background-color: #999999;
+      
+      color: #000;
+  }
+  
